@@ -14,6 +14,7 @@ vich_uploader:
     mappings:
         product_image:
             uri_prefix:         web   # uri prefix to resource
+            uri_suffix:         ~     # uri suffix to resource
             upload_destination: ~     # gaufrette storage fs id, required
             namer:              ~     # specify a file namer service id for this entity, null default
             directory_namer:    ~     # specify a directory namer service id for this entity, null default

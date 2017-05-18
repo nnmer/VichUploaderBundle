@@ -340,6 +340,16 @@ class PropertyMapping
     }
 
     /**
+     * Get uri suffix.
+     *
+     * @return string
+     */
+    public function getUriSuffix()
+    {
+        return $this->mapping['uri_suffix'];
+    }
+
+    /**
      * Fixes a given propertyPath to make it usable both with arrays and
      * objects.
      * Ie: if the given object is in fact an array, the property path must
